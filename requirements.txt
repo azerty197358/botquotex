@@ -1,5 +1,4 @@
 flask
-quotexapi
 pandas
 asyncio
 python-dotenv
