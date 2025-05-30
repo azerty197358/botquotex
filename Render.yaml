@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: quotex-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn bot_interface:app
+    envVars:
+      - key: PORT
+        value: 10000
