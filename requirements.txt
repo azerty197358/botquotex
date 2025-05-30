@@ -3,3 +3,4 @@ pandas
 asyncio
 python-dotenv
 gunicorn
+urllib3
